@@ -1,2 +1,24 @@
 $icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
 @import '~bootstrap-sass/assets/stylesheets/bootstrap';
+
+body { font: 12px Arial;}
+
+path {
+    stroke: steelblue;
+    stroke-width: 3;
+    fill: none;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+
+
+#cdc-1 {
+  font-size: 21px;
+  line-height: 25px;
+  }
